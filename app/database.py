@@ -2,8 +2,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base,mapped_column
 
 
-DB_USER = "KEISUKE"
-DB_PASSWORD = "0605wasabi"
+DB_USER = "your_user"
+DB_PASSWORD = "your_password"
 DB_HOST = "localhost"
 DB_PORT = "3306"
 DB_NAME = "kakei_database"
